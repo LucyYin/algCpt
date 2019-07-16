@@ -7,7 +7,7 @@
  * under the terms of the GNU General Public License as published by the
  * Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
- * 
+	 * 
  * noilearning is distributed in the hope that it will be useful, but
  * WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
@@ -21,33 +21,33 @@
 #include <stdio.h>
 
 
- int main()
+int main()
 {
-    int a;
+	int a;
 	int b;
 	int c;
 	/*a=9;
-	b=7;
-	c=5;*/
+	 b=7;
+	 c=5;*/
 	std::cin>>a;
 	std::cin>>b;
 	std::cin>>c;
 	/*if(a<b )
 	{
-	   if(a<c)
-       std::cout << a ;
-		
+		if(a<c)
+		std::cout << a ;
+
 		if (b<c)
-			std::cout << "  " << b << "  " << c << std::endl;
+		std::cout << "  " << b << "  " << c << std::endl;
 		else
 			std::cout << "  " << c << "  " << b << std::endl;
-		
-	} 
-	else*/ 
+
+} 
+else*/ 
 	int d;
 	if (a>=b)
 	{       
-		
+
 
 		d=a;
 
@@ -59,49 +59,49 @@
 		{   d=a;
 			a=c;
 			c=d;
-		}
-			
-		if (b>=c)
-		{   d=b;
-			b=c;
-			c=d;
-		}*/
-	
-		
-	//std::cout << a <<" "<< b <<" "<< c << std::endl;
+	}
+
+	if (b>=c)
+	{   d=b;
+		b=c;
+		c=d;
+	}*/
+
+
+		//std::cout << a <<" "<< b <<" "<< c << std::endl;
 
 	}
 	if (a>=c)
-		{   d=a;
-			a=c;
-			c=d;
-		}
-	
+	{   d=a;
+		a=c;
+		c=d;
+	}
+
 	if (b>=c)
-		{   d=b;
-			b=c;
-			c=d;
-		}	
+	{   d=b;
+		b=c;
+		c=d;
+	}	
 
-    std::cout << a <<" "<< b <<" "<< c << std::endl;
+	std::cout << a <<" "<< b <<" "<< c << std::endl;
 
-	
+
 	//std::cin>>a;
 	//std::cout<<a<<std::endl;
 
 	//if(a%3==0)
-		//std::cout<<"ni hao"<<std::endl;
+	//std::cout<<"ni hao"<<std::endl;
 	//else
-		//std::cout<<"hola"<<std::endl;
-	
+	//std::cout<<"hola"<<std::endl;
+
 	/*if(a<0)
-		std::cout<<"a isn't positive"<<std::endl;
-    if(a==0)
-	    std::cout<<"a=0"<<std::endl;
+	std::cout<<"a isn't positive"<<std::endl;
+	if(a==0)
+	std::cout<<"a=0"<<std::endl;
 	if(a>0)
-		std::cout<<"a is positive"<<std::endl;*/
-		
-	
-    return 0;
+	std::cout<<"a is positive"<<std::endl;*/
+
+
+	return 0;
 }
-    
+
