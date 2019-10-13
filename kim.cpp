@@ -20,7 +20,7 @@ int main()
      }
      if(b>=a&&a!=1)
      {
-         cout<<"yes"<<endl;
+         cout<<"data you input is prime!"<<endl;
      }
    
     
